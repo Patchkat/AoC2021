@@ -1,7 +1,7 @@
 pos = 0
 dep = 0
 aim = 0
-for x in open("input.txt").readlines():
+for x in open("./directions.txt").readlines():
     x = x.split(" ")
     if x[0].startswith("f"):
         pos += int(x[1])

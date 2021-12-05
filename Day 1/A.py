@@ -1,6 +1,6 @@
 total = 0
 values = []
-for x in open("./input.txt").readlines():
+for x in open("./depth.txt").readlines():
     values.append(int(x))
 
 for i in range(len(values)):
