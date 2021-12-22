@@ -1,4 +1,4 @@
-for x in open("./input.txt").readlines():
+for x in open("./fish.txt").readlines():
     fish = [int(y) for y in x.split(",")]
 fish_count = [0 for x in range(9)]
 day = 0
